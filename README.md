@@ -1,4 +1,4 @@
-Mandelbrot Set
+Julia Sets
 
     Written in Python 2.7.9
     using pygame 1.9.2b1
