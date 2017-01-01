@@ -2,7 +2,7 @@
 #                                                                      #
 # David Fuller                                                         #
 #                                                                      #
-# Driver File: For Mandelbrot Set app                                  #
+# Driver File: For Julia Set app                                       #
 #                                                                      #
 # Created on 2016-12-29                                                #
 #                                                                      #

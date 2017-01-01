@@ -104,17 +104,11 @@ class init(object):
                     # Increment iteration
                     iteration = iteration + ONE
 
-                # Colour generator part of Mandelbrot set
-                red = green = blue = self.Map(iteration,           \
-                                              ZERO, MAX_ITERATION, \
-                                              ZERO, COLOR_MAX)
-                colour = (red, green, blue)
-
-                # If not part of Mandelbrot set, make colour black
+                # If not part of Julia set, make colour black
                 if iteration == MAX_ITERATION:
                     colour = Colour['BLACK']
                 else:
-                    # Colour generator part of Mandelbrot set
+                    # Colour generator part of Julia set
                     hu = math.sqrt(float(iteration) / MAX_ITERATION)
                     colour = tuple(int(i * COLOR_MAX) \
                                    for i in colorsys.hsv_to_rgb(hu, ONE, ONE))
