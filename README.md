@@ -1,13 +1,7 @@
 Julia Sets
 
-    Written in Python 2.7.9
-    using pygame 1.9.2b1
-
-To install pygame: from the command prompt or Terminal, run the following:
-
-    python -m pip install --upgrade pip
-    python -m pip install pygame
-
+    Written in Python 3.5.2
+    using pygame 1.9.3
 
 
 
@@ -24,4 +18,4 @@ I followed along with the video translating everything to Python, using pygame.
 
 
 
-![julia](https://cloud.githubusercontent.com/assets/7481680/21582272/8d4c6684-d01e-11e6-94f2-232dcc59cfe0.png)
+![juliagif](https://user-images.githubusercontent.com/7481680/35354779-33eb7aee-0119-11e8-9c5b-2844307cdea0.gif)
